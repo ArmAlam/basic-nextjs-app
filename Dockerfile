@@ -20,7 +20,7 @@ RUN yarn install --production --frozen-lockfile
 # Copy build output from builder
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/next.config.ts ./
 COPY --from=builder /app/package.json ./
 
 ENV NODE_ENV=production
