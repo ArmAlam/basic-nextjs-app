@@ -26,7 +26,7 @@ export default function HomePage() {
               onClick={loadData}
               className="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg shadow-lg transition"
             >
-              Call backend API
+              Call Nest API
             </button>
             <button
               onClick={handleSignOut}
