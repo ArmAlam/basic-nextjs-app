@@ -6,7 +6,7 @@ set -e
 # ====== CONFIG ======
 DOCKER_USERNAME="armanalam"
 IMAGE_NAME="basic-nextjs-app"
-IMAGE_TAG="v1.0.0"
+IMAGE_TAG="v1.1.0"
 
 # ====================
 
